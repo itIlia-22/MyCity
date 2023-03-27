@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.IconButton
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -28,6 +29,7 @@ fun CategoryMyCity(
         modifier = modifier
             .fillMaxSize()
             .padding(50.dp),
+
         //horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
     ) {
@@ -38,6 +40,7 @@ fun CategoryMyCity(
             Text(
                 text = stringResource(R.string.screen2),
                 modifier = modifier.padding(start = 16.dp, top = 48.dp),
+                style = MaterialTheme.typography.h6
 
                 )
         }
@@ -48,7 +51,7 @@ fun CategoryMyCity(
             Text(
                 text = stringResource(R.string.screen3),
                 modifier = modifier.padding(start = 16.dp, top = 48.dp),
-
+                style = MaterialTheme.typography.h6
                 )
         }
         Row(modifier = modifier.padding(top = 24.dp, start = 24.dp)) {
@@ -58,7 +61,7 @@ fun CategoryMyCity(
             Text(
                 text = stringResource(R.string.screen4),
                 modifier = modifier.padding(start = 16.dp, top = 48.dp),
-
+                style = MaterialTheme.typography.h6
                 )
         }
         Row(modifier = modifier.padding(top = 24.dp, start = 24.dp)) {
@@ -68,7 +71,7 @@ fun CategoryMyCity(
             Text(
                 text = stringResource(R.string.screen5),
                 modifier = modifier.padding(start = 16.dp, top = 48.dp),
-
+                style = MaterialTheme.typography.h6
                 )
         }
 
