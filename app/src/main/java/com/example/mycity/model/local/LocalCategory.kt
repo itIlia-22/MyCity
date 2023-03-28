@@ -5,6 +5,7 @@ import com.example.mycity.model.CategoryDetails
 
 object LocalCategory {
 
+
     val categoryPark = listOf(
         CategoryDetails(
             name = R.string.park_pobeda,
@@ -32,7 +33,7 @@ object LocalCategory {
         ),
 
 
-    )
+        )
     val categoryRest = listOf(
         CategoryDetails(
             name = R.string.rest_chesnok,
@@ -43,7 +44,7 @@ object LocalCategory {
         CategoryDetails(
             name = R.string.rest_chesnie,
             desc = R.string.rest_chesnie_details,
-            image = R.drawable.pochesnoku
+            image = R.drawable.ic_checni
 
         ),
         CategoryDetails(

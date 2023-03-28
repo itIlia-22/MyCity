@@ -13,6 +13,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.mycity.R
+import com.example.mycity.model.local.LocalCategory
 
 
 //метод для отображения начального экрана с категориями других экрнов
@@ -77,6 +78,7 @@ fun CategoryMyCity(
 
     }
 }
+
 
 @Preview(showBackground = true)
 @Composable
